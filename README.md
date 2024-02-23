@@ -13,11 +13,8 @@ Extraction results are listed in the table below:
 | **Gemini**        |  |  |  |  |  |  |  |  |  |  |
 | **Mistral 7B**    | 80% | 20% |  0% | 60% | 90% | 70% | 90% | N/A | 20% | 80% | 
 | **Gemmma 7B**     | 28% |  1% |  1% |  7% | 60% | 44% | 53% | 63% | 22% | 16% | 
-| **LlaMa2 7B**     |  7% |  5% |  0% |  0% |  4% |  9% |  3% |  9% | 49% | 33% | 
 | **Phi**           | 80% | 80% | 60% | 40% | 70% | 90% | 50% | N/A | 10% | 60% | 
 
-# Installation
-
-```sh
+```
 pip install -r requirements.txt
 ```
