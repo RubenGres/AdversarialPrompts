@@ -2,6 +2,10 @@
 
 This repository contains a list of adversarial prompts for large language models using a variety of techniques. Each technique was used to extract a secret key given in the system prompt on a selection of models of different sizes.  
 
+All the adversarial prompts can be found in *adversarial_prompts.json*, the LLM responses are all available in the file *llm_replies.json*
+
+All tested LLM are instruct versions of the following models: `Gemma 7B`, `LlaMa2 7B`,  `Mistral 7B`,  `Phi 7B`,  `GPT-3.5`,  `GPT-4`
+
 **Here are the results of our study:** 
 
 | Model\Method            | simplest  | polite  | begging | menacing | ignore | obfuscation | context_switching | diversion | long_diversion | DAN  |
